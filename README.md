@@ -19,11 +19,10 @@ Basic LLM chatbot for answering internal Q&amp;A.  This is a simple langchain ch
   * `users:read` (know users in workspace)
   * Also, be sure to enable Socket Mode and Enable Events -- otherwise, the app won't know about messages
 * Set up environment variables:
-  * SLACK_BOT_TOKEN
-  * SLACK_APP_TOKEN
-  * SLACK_SIGNING_SECRET
-  * OPENAI_API_KEY
+  * SLACK_BOT_TOKEN (from creating the Slack app; should start with xoxb)
+  * SLACK_APP_TOKEN (from creating the Slack app; should start with xapp)
+  * OPENAI_API_KEY (from your OpenAPI subscription for GPT)
 
 ## Running
 
-Run `python3 slackbot.py` to launch the chatbot.
+Run `python3 slackbot.py` to launch the chatbot.  It will first index all of the contents of `index_these`, then join Slack.
