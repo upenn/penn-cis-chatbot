@@ -1,0 +1,8 @@
+openai
+chromadb
+langchain
+tiktoken
+pypdf
+docx2txt
+slack_bolt
+
