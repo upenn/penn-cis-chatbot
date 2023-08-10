@@ -24,3 +24,6 @@ Basic LLM chatbot for answering internal Q&amp;A.  This is a simple langchain ch
   * SLACK_SIGNING_SECRET
   * OPENAI_API_KEY
 
+## Running
+
+Run `python3 slackbot.py` to launch the chatbot.
